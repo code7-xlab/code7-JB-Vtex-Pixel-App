@@ -1,9 +1,9 @@
 {
-  "name": "JB-pixel-app",
+  "name": "journey-builder-integration",
   "vendor": "code7partnerbr",
-  "version": "0.0.1",
-  "title": "JB-pixel-app",
-  "description": "CHANGEME",
+  "version": "0.0.0",
+  "title": "journey-builder-integration",
+  "description": "integration app for Journey Builder API",
   "billingOptions": {
     "termsURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
     "support": {
@@ -25,7 +25,7 @@
     "vtex.pixel-interfaces": "1.x"
   },
   "settingsSchema": {
-    "title": "JB-pixel-app",
+    "title": "journey-builder-integration",
     "type": "object",
     "properties": {
       "apiKey": {
