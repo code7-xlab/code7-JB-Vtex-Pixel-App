@@ -1,8 +1,8 @@
 {
-  "name": "YOURAPPNAME",
-  "vendor": "vtex",
+  "name": "JB-pixel-app",
+  "vendor": "code7partnerbr",
   "version": "0.0.1",
-  "title": "CHANGEME",
+  "title": "JB-pixel-app",
   "description": "CHANGEME",
   "billingOptions": {
     "termsURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
@@ -25,12 +25,12 @@
     "vtex.pixel-interfaces": "1.x"
   },
   "settingsSchema": {
-    "title": "YOUR APP NAME",
+    "title": "JB-pixel-app",
     "type": "object",
     "properties": {
-      "gtmId": {
-        "title": "SAMPLE FIELD",
-        "description": "Enter the ID (GTM-XXXX) from your Google Tag Manager",
+      "apiKey": {
+        "title": "API Key",
+        "description": "Enter your API Key from Code7 Journey Builder",
         "type": "string"
       }
     }
