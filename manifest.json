@@ -1,7 +1,7 @@
 {
   "name": "journey-builder-integration",
   "vendor": "code7partnerbr",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.2-beta.0",
   "title": "journey-builder-integration",
   "description": "integration app for Journey Builder API",
   "billingOptions": {
