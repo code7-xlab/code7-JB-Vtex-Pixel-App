@@ -1,14 +1,19 @@
 <script>
+  console.log('[LOG] - head');
   (function () {
-    var appId = "{{settings.APIKey}}";
+    var appId = "{{settings.apiKey}}";
     if (!appId) {
       console.error('Warning: No APP NAME ID is defined. Please configure it in the apps admin.');
       return
     }
 
+    window.appId = appId
+
+
+
     // Add script here
-    const testeAlert = function (title) {
+    window.testeAlert = function (title) {
       alert(title)
     }
-  })()
+  })(window)
 </script>

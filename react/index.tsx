@@ -2,11 +2,13 @@ import { canUseDOM } from 'vtex.render-runtime'
 
 import type { PixelMessage } from './typings/events'
 
-console.log('aeeeeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA');
-
 export function handleEvents(e: PixelMessage) {
 
-  console.log(`[LOG] - Event Name: ${e.data.eventName}`);
+  const { appId } = window;
+
+  console.log(`[LOG] - Event Name: ${e.data.eventName}, AppId: ${appId}`);
+
+  window.testeAlert('TESTEEE');
 
   switch (e.data.eventName) {
     case 'vtex:pageView': {
